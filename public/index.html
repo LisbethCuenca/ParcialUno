@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="r4C">
+        <label>Nombre:</label>
+        <input type="text" placeholder="Nombre" id="name">
+        <label>Descripcion:</label>
+        <textarea name="description" id="description" cols="30" rows="10"></textarea>
+        <div class="buttons">
+            <button type="button" id="btnAdd">Enviar</button>
+        </div>
+    </main>
+
+    <br>
+    <hr>
+    <header>
+        <table>
+            <thead>
+                <tr>
+                    <th>N°</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Images</th>
+                </tr>
+            </thead>
+            <tbody id="tableData">
+    
+            </tbody>
+        </table>
+    </header>
+
+    <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
